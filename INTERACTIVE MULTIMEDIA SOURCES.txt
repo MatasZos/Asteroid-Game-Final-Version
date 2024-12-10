@@ -1,0 +1,35 @@
+INTERACTIVE MULTIMEDIA PROJECT
+Ethan Teixeira B00164666
+Matas Zostautas B00163194 
+
+This is the sources document for our Asteroids Game Unity Project
+
+This is the image that we used for both our Main Menu and Game Menu https://stock.adobe.com/images/cosmos-texture-colorful-galaxy-with-bright-stars-space-background-with-glowing-stardust-cosmic-fantasy-with-color-clouds-deep-cosmos-wallpaper-vector-illustration/457940257  
+
+We used this asset package for the visual of the asteroids in the game, we downloaded this package from the Unity Store
+https://assetstore.unity.com/packages/3d/props/breakable-asteroids-167825
+
+We used this asset package for the visual of the spaceship in the game, we downloaded this package from the Unity Store
+https://assetstore.unity.com/packages/2d/characters/2d-pixel-spaceship-two-small-ships-131545
+
+We downloaded this projectile package from the Unity Store to use as a laser projectile being shot from the spaceship. 
+https://assetstore.unity.com/packages/vfx/particles/spells/projectile-factory-for-aaa-stylized-projectiles-vol-1-by-hovl-st-290230
+
+We downloaded this projectile audio sfx from the Unity Store to use as the sound of when a projectile is fired 
+https://assetstore.unity.com/packages/audio/sound-fx/weapons/free-laser-weapons-214929 
+
+We used this audio from the Unity Store for the background sound 
+https://assetstore.unity.com/packages/audio/music/space-threat-free-action-music-205935 
+
+We implemented this 'Awake' method in our code to ensure that our AudioManager code exists throughout all the scenes. https://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html
+
+We implemented the quit application so users can quit the application when its in unity, so you can close the application
+https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Application.Quit.html
+
+We implemented this code to prevent our Asteroid objects from rotating
+https://docs.unity3d.com/ScriptReference/Quaternion-identity.html
+
+DontDestroyOnLoad() will ensure that the audio wont be reloaded or reset when switching scenes. 
+https://docs.unity3d.com/ScriptReference/Object.DontDestroyOnLoad.html
+
+
